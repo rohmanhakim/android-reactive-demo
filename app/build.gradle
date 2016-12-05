@@ -23,4 +23,15 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
+
+    // Retrofit2 library
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    // A converter which uses Gson for serialization to and from JSON.
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    // RxJava adapter for retrofit
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    // RxJava libraries
+    compile 'io.reactivex:rxjava:1.2.3'
+    compile 'io.reactivex:rxandroid:1.2.1'
+
 }
