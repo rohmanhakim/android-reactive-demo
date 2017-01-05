@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">AndroidReactiveDemo</string>
+    <string name="email_exist_alert">Email is  already exist</string>
+    <string name="password_minimal_alert">Password must be at least 6 characters</string>
+    <string name="password_confirmation_does_not_match_alert">Password confirmation does not match</string>
+    <string name="empty_field_alert">is empty</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="base_url">https://private-7cba43-androidrxdemo.apiary-mock.com/</string>
+    <string name="tap_me">Tap Me!</string>
+    <string name="double_tap_total">Double + Multiple tap total:</string>
+    <string name="even_number_demo">Even Number Demo</string>
+    <string name="multiple_taps_demo">Multiple Taps Demo</string>
+    <string name="registration_demo">Registration Demo</string>
+    <string name="subscribe_observe_activty">SUBSCRIBE OBSERVE ACTIVTY</string>
 </resources>

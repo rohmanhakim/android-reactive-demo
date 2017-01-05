@@ -34,4 +34,6 @@ dependencies {
     compile 'io.reactivex:rxjava:1.2.3'
     compile 'io.reactivex:rxandroid:1.2.1'
 
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-design:0.4.0'
 }

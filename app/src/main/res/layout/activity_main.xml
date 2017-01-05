@@ -14,15 +14,18 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical">
+
         <Button
-            android:id="@+id/btn_multiple_click_demo"
+            android:id="@+id/btn_multiple_tap_demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Multiple Click Demo"/>
+            android:text="@string/multiple_taps_demo"/>
+
         <Button
-            android:id="@+id/btn_api_request_demo"
+            android:id="@+id/btn_registration_demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="API Request Demo"/>
+            android:text="@string/registration_demo"/>
+
     </LinearLayout>
 </RelativeLayout>

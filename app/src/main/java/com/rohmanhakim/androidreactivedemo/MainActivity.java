@@ -13,19 +13,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnMultipleClickDemo = (Button) findViewById(R.id.btn_multiple_click_demo);
-        btnMultipleClickDemo.setOnClickListener(new View.OnClickListener() {
+        Button btnMultipleTapDemo = (Button) findViewById(R.id.btn_multiple_tap_demo);
+        btnMultipleTapDemo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,MultipleClickDemoActivity.class));
+                startActivity(new Intent(MainActivity.this,MultipleTapDemoActivity.class));
             }
         });
 
-        Button btnApiRequestDemo = (Button) findViewById(R.id.btn_api_request_demo);
-        btnApiRequestDemo.setOnClickListener(new View.OnClickListener() {
+        Button btnRegistrationDemo = (Button) findViewById(R.id.btn_registration_demo);
+        btnRegistrationDemo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,ApiRequestDemo.class));
+                startActivity(new Intent(MainActivity.this,RegistrationDemoActivity.class));
             }
         });
     }
